@@ -1,0 +1,24 @@
+namespace ConcatDate
+
+  { Class program 
+  
+     {
+       static void Main(string [] args)
+       { 
+         List<string> mydates = new List<string>(); \\creo e inizializzo a vuota una lista di stringhe
+         mydates.Add("01/01/1999"); \\ Aggiungo la data alla lista my dates
+		 mydates.Add("02/02/2000"); \\ Aggiungo un'altra data alla lista
+		 mydates.Add("03/03/2001"); \\ Aggiungo un'altra data alla lista
+		 string dates= " ";         \\ Creo e inizializzo a vuota una stringa dates
+		 foreach(string d in mydates)
+		 {
+		 dates+= d + "-";           \\concateno in dates tutti gli elementi della mia lista
+		 }
+		 Console.WriteLine(dates);   \\ stampo dates, la concatenazione di date
+       }
+       
+  
+     }
+  
+  
+  }
