@@ -11,7 +11,7 @@ namespace Test
         {
             List<string> date = new List<string>() { "12/03/1948", "28/09/1991", "15/12/2007", "11/11/2011" };
 
-            // Concatena tutte le date
+            // Stampa i mesi dispari su un file di testo
             foreach (string data in date)
             {
                 try
@@ -22,13 +22,11 @@ namespace Test
                     if (mese % 2 != 0)
                         throw new ArithmeticException("Il mese " + mese + " è dispari.");
                 }
-                catch (Exception e)
+                catch (Exception mese)
                 {
-                    // Console.WriteLine("Stampo su file di testo");
-
-                    using (StreamWriter writer = new StreamWriter("C:\\Users\\hp\\Documents\\2C-Audio\\log.txt", true))
+                    using (StreamWriter writer = new StreamWriter("C:\\Users\\hp\\Documents\\log.txt", true))
                     {
-                        writer.WriteLine("Mese dispari");
+                        writer.WriteLine("Eccezione: " + mese);
                     }
                 }
             }
