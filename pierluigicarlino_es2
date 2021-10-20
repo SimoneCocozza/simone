@@ -17,15 +17,15 @@ public class Program
 		string toPrint = "";
 		
 		//check if the month is  odd
-    foreach(string date in dates){
-      int mese = Int32.Parse(date.Split('/')[1]);
-      try{
-        if(mese%2==1)
-          throw new Exception(date+" is odden\n");
-      }catch(Exception e){
-        toPrint += date+" is odden\n";			
-      }			
-    }
+    		foreach(string date in dates){
+      			int mese = Int32.Parse(date.Split('/')[1]);
+      			try{
+        			if(mese%2==1)
+          				throw new Exception(date+" is odden\n");
+			}catch(Exception e){
+        			toPrint += date+" is odden\n";			
+      			}			
+    		}
 		
 		if(toPrint!="")
 			File.WriteAllText("error.txt",toPrint);
