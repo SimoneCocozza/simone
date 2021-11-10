@@ -1,0 +1,35 @@
+namespace AppStringa
+
+class Programm {
+
+	static void Main(strings [] agrs) 
+	{
+	
+		List<string> mydates1 = new List<string>();
+		mydates1.add("11/11/1994");
+		mydates1.add("01/01/1994");
+		mydates1.add("10/10/1990");
+		mydates1.add("12/12/1984");
+		
+		 StringBuilder sb = new StringBuilder();
+         string dates = "";
+		foreach (string d in mydates)
+			{
+                dates += d + "-";
+            }
+            
+			Console.WriteLine(dates);
+		 
+		 
+		 
+			foreach (string date in mydates)
+            {
+                sb.Append(date);
+                sb.Append("-");
+            }
+
+            dates = sb.ToString();
+            Console.WriteLine(dates);
+			}
+			}
+			}
