@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EsercizioProva
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const string separate = " - "; 
+            List<string> dateList = new List<string>() { 
+                "01/07/2002",
+                "02/07/2002",
+                "03/07/2002",
+                "04/07/2002",
+                "05/07/2002",
+                "06/07/2002",
+                "07/07/2002",
+                "08/07/2002",
+                "09/07/2002",
+                "10/07/2002"
+            };
+            string showDates;
+            string showDates2 = ""; 
+            StringBuilder datetemp = new StringBuilder(); 
+
+            foreach (string date in dateList)
+            {
+                datetemp.Append(date);
+                datetemp.Append(separate);
+            }
+            
+            showDates = datetemp.ToString();
+            datetemp.Remove(showDates.Length - 2, 1); //rimuovo l'ultimo separatore presente nella stringa
+            showDates = datetemp.ToString(); //stampo la mia stringa sistemata
+
+            foreach (var date in dateList)
+            {
+                showDates2 += date + separate; 
+            }
+
+            showDates2 = showDates2.Remove(showDates2.Length - 2, 1);//rimuovo ultimoseparatore
+
+
+            Console.WriteLine("First method:\n{0} \n\nSecond method:\n{1}", showDates, showDates2);
+            Console.WriteLine("\nPress enter to close...");
+            Console.ReadLine();
+        }
+    }
+}

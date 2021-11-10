@@ -1,0 +1,54 @@
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            List<string> dateList = new List<string>() {
+                "01/07/2002",
+                "02/04/2002",
+                "03/09/2002",
+                "04/07/2002",
+                "05/07/2002",
+                "06/10/2002",
+                "07/07/2002",
+                "08/07/2002",
+                "09/12/2002",
+                "10/11/2002"
+            };
+           
+
+            const string filePath = @"C:\Users\savino.fiore\source\repos\EsercizioProva\EsercizioProva\TextFile.txt";
+           
+            foreach (string date in dateList)
+            {
+                int number = -1 ;
+                try
+                {
+                    string[] temp = date.Split('/');
+                    number = int.Parse(temp[1]);
+                    if (number %2 !=0 )
+                    {
+                        throw new ArgumentException("Numero mese dispari: " + number + "\n");
+                        
+                    }
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message );
+                    File.AppendAllText(filePath, ex.Message);
+
+                }
+
+               
+                
+            }
+            Console.ReadKey();
+        }
+    }
+
+  
+
+}
