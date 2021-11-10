@@ -1,0 +1,16 @@
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.csproj.AssemblyReference.cache
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.Form1.resources
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.csproj.GenerateResource.cache
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.AssemblyInfoInputs.cache
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.AssemblyInfo.cs
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.csproj.CoreCompileInputs.cache
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\bin\Debug\netcoreapp3.1\EsForm_SimoneMarinella.exe
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\bin\Debug\netcoreapp3.1\EsForm_SimoneMarinella.deps.json
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\bin\Debug\netcoreapp3.1\EsForm_SimoneMarinella.runtimeconfig.json
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\bin\Debug\netcoreapp3.1\EsForm_SimoneMarinella.runtimeconfig.dev.json
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\bin\Debug\netcoreapp3.1\EsForm_SimoneMarinella.dll
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\bin\Debug\netcoreapp3.1\EsForm_SimoneMarinella.pdb
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.dll
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.pdb
+C:\Users\marin\source\repos\EsForm_SimoneMarinella\EsForm_SimoneMarinella\obj\Debug\netcoreapp3.1\EsForm_SimoneMarinella.genruntimeconfig.cache
